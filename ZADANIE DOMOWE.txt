@@ -1,0 +1,10 @@
+Czeœæ :)
+
+Zadanie polega na stworzeniu nowego kontraktu IGamingCollectorsLeaderService,
+który bêdzie zawiera³ dwie metody: do wyci¹gania wszystkich zleceñ windykacyjnych
+oraz do przypisywania zlecenia do konkretnego u¿ytkownika. Przydadz¹ siê do tego
+dwie metody z IDebtCollectionRepository GetAllOrders oraz UpdateOrderAssignment.
+
+Zamieœci³em skrypt potrzebny do odtworzenia bazy oraz kod Ÿród³owy.
+
+Mi³ej zabawy :)

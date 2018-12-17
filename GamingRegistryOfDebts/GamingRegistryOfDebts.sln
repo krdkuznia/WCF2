@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingRegistryOfDebts", "GamingRegistryOfDebts\GamingRegistryOfDebts.csproj", "{B1902366-7813-4953-B28F-AE48D80B3E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingRegistryOfDebts.Service", "GamingRegistryOfDebts.Service\GamingRegistryOfDebts.Service.csproj", "{530CC331-BC1D-44F4-BD5A-A5535D8CC82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingRegistryOfDebts.DataAccess", "GamingRegistryOfDebts.DataAccess\GamingRegistryOfDebts.DataAccess.csproj", "{3DF79A60-64FD-4E8D-9951-31FDF0D57B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingRegistryOfDebts.ConsoleHost", "GamingRegistryOfDebts.ConsoleHost\GamingRegistryOfDebts.ConsoleHost.csproj", "{8BB0209A-3D91-4B83-822C-8B69AB541ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingRegistryOfDebts.DebtClient", "GamingRegistryOfDebts.DebtClient\GamingRegistryOfDebts.DebtClient.csproj", "{1D38E278-823D-4A96-A80D-94EA5719DA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingRegistryOfDebts.DebtCollectorClient", "GamingRegistryOfDebts.DebtCollectorClient\GamingRegistryOfDebts.DebtCollectorClient.csproj", "{5E40FE44-85FD-488D-B405-F3C0F8566382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{4A76BE69-CDAC-46FE-9CA5-A5E72A6E68B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{5AB0518F-E341-44C6-AB56-34A11B0672CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1902366-7813-4953-B28F-AE48D80B3E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1902366-7813-4953-B28F-AE48D80B3E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1902366-7813-4953-B28F-AE48D80B3E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1902366-7813-4953-B28F-AE48D80B3E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530CC331-BC1D-44F4-BD5A-A5535D8CC82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530CC331-BC1D-44F4-BD5A-A5535D8CC82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530CC331-BC1D-44F4-BD5A-A5535D8CC82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530CC331-BC1D-44F4-BD5A-A5535D8CC82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF79A60-64FD-4E8D-9951-31FDF0D57B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF79A60-64FD-4E8D-9951-31FDF0D57B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF79A60-64FD-4E8D-9951-31FDF0D57B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF79A60-64FD-4E8D-9951-31FDF0D57B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB0209A-3D91-4B83-822C-8B69AB541ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB0209A-3D91-4B83-822C-8B69AB541ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB0209A-3D91-4B83-822C-8B69AB541ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB0209A-3D91-4B83-822C-8B69AB541ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D38E278-823D-4A96-A80D-94EA5719DA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D38E278-823D-4A96-A80D-94EA5719DA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D38E278-823D-4A96-A80D-94EA5719DA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D38E278-823D-4A96-A80D-94EA5719DA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E40FE44-85FD-488D-B405-F3C0F8566382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E40FE44-85FD-488D-B405-F3C0F8566382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E40FE44-85FD-488D-B405-F3C0F8566382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E40FE44-85FD-488D-B405-F3C0F8566382}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BB0209A-3D91-4B83-822C-8B69AB541ED7} = {4A76BE69-CDAC-46FE-9CA5-A5E72A6E68B5}
+		{1D38E278-823D-4A96-A80D-94EA5719DA62} = {5AB0518F-E341-44C6-AB56-34A11B0672CF}
+		{5E40FE44-85FD-488D-B405-F3C0F8566382} = {5AB0518F-E341-44C6-AB56-34A11B0672CF}
+	EndGlobalSection
+EndGlobal
